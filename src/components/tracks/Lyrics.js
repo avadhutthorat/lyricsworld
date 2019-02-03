@@ -34,8 +34,6 @@ class Lyrics extends Component {
 
   render() {
     const { track, lyrics } = this.state;
-    console.log(track);
-
     if (
       track === undefined ||
       lyrics === undefined ||
@@ -47,7 +45,7 @@ class Lyrics extends Component {
       return (
         <React.Fragment>
           <Link to="/" className="btn btn-dark mb-4">
-            Go Back
+            <i className="fa fa-arrow-left" /> Back
           </Link>
           <div className="card">
             <h5 className="card-header">
