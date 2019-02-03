@@ -3,7 +3,6 @@ import { Consumer } from "../../Context";
 import Spinner from "../layout/Spinner";
 import Track from "./Track";
 class Tracks extends Component {
-  state = {};
   render() {
     return (
       <Consumer>
